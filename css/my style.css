@@ -1,0 +1,424 @@
+/** {*/
+/*    border: 1px red solid;*/
+/*}*/
+body {
+    /*min-width: 1114px;*/
+}
+nav {
+    font-family: 'Noto Sans SC', sans-serif;
+    /*font-weight: normal;*/
+}
+.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 50px;
+    transition: top 0.4s;
+    background-color: rgba(52, 58, 64, 0);
+}
+#top_title_box_index,
+#top_title_box_message {
+    max-height: 600px;
+    overflow: hidden;
+}
+#top_title_box_work {
+    height: 100vh;
+    /*min-height: 666px;*/
+    /*min-width: 1055px;*/
+    overflow: hidden;
+}
+#top_title {
+    position: absolute;
+    z-index: 99;
+    margin: -56px 0 0 -275px;
+    width: 555px;
+    height: 112px;
+    left: 50%;
+    top: 50%;
+    /*font-family: "Source Han Serif CN Heavy";*/
+    font-family: 'Noto Serif SC', serif;
+    font-size: 67px;
+}
+#top_picture {
+    /*min-height: 666px;*/
+    /*overflow: hidden;*/
+    width: 100%;
+}
+#top_video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    min-height: 661px;
+    object-fit: cover;
+}
+#about-me {
+    margin-top: 80px;
+}
+#personal-name {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.personal-information {
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 18px;
+    margin: 5px auto;
+    letter-spacing: 2px;
+}
+.subtitle-bg {
+    position: relative;
+    font-size: 48px;
+    line-height: 67px;
+    color: #1f2329;
+    opacity: .04;
+    letter-spacing: 8px;
+    margin: 100px auto;
+    font-family: 'Noto Sans SC', sans-serif;
+    font-weight: bold;
+    overflow: hidden;
+}
+.subtitle {
+    /*margin: 100px auto;*/
+    margin-top: -150px;
+    margin-bottom: 50px;
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 32px;
+}
+#school-picture {
+    min-width: 550px;
+    border-radius: 25px 25px 25px 25px;
+}
+.my-accordion {
+    min-width: 350px;
+}
+#study-accordion {
+    padding-top: 80px;
+    margin: 0 0 0 auto;
+}
+.card-body {
+    font-family:'Noto Sans SC', sans-serif;
+}
+#activity-picture {
+    width: 100%;
+    min-width: 550px;
+    border-radius: 25px;
+    /*overflow: hidden;*/
+}
+#activity-accordion {
+    padding-top: 70px;
+    z-index: 1;
+}
+/*手风琴样式调整*/
+.my-accordion .card,
+.my-accordion .card .card-header {
+    border: none;
+}
+.my-accordion .card-header {
+    border-bottom-color: #EDEFF0;
+}
+.my-accordion .btn {
+    width: 100%;
+    font-weight: bold;
+    color: #004987;
+    padding: 0;
+}
+/*取消下划小蓝线*/
+.my-accordion .btn-link:hover,
+.my-accordion .btn-link:focus {
+    text-decoration: none;
+}
+.my-accordion .fa-stack {
+    font-size: 12px;
+}
+.my-accordion li + li {
+    margin-top: 10px;
+}
+
+#connect-me {
+    text-align: center;
+    max-width: 1440px;
+    height: 500px;
+    margin: 100px auto;
+    background-image: url("../img/global.png");
+    background-position: bottom;
+    background-size: 1440px auto;
+    background-repeat: no-repeat;
+    /*position: relative;*/
+    font-family: 'Noto Sans SC', sans-serif;
+}
+.blue-line {
+    margin: 0 auto 6px;
+    width: 24px;
+    height: 4px;
+    background-color: #3370ff;
+    border-radius: 100px;
+}
+.tool {
+    display: inline-block;
+    height: 200px;
+}
+.tool-img {
+    margin: auto;
+    width: 90px;
+    border: 1px solid rgba(120, 120, 120, 0.25);
+    border-radius: 12px;
+}
+.tool-img:hover {
+    width: 105px;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    /*box-shadow: 5px 5px 5px 5px black;*/
+}
+.tool-name {
+    line-height: 22px;
+    margin-top: 16px;
+    font-size: 16px;
+    transition: transform .2s;
+    color: #1f2329;
+}
+#address-img {
+    height: 240px;
+    margin-bottom: 30px;
+}
+.model-title {
+    margin-top: 20px;
+}
+#model-button {
+    border-radius: 27px;
+    height: 54px;
+    font-size: 18px;
+    line-height: 54px;
+    padding: 0 32px;
+}
+#footer {
+    margin-top: 150px;
+    height: 120px;
+    background-color: rgb(31, 35, 41);
+}
+#footer-title {
+    color: gray;
+    margin-top: 60px;
+    font-family: "Source Han Sans CN Bold", sans-serif;
+    font-size: 15px;
+}
+
+#carousel {
+    font-family: 'Noto Sans SC', sans-serif;
+}
+.video-title {
+    margin-bottom: 20px;
+}
+.video-information {
+    margin: 10px auto;
+}
+.video-img-shadow {
+    width: 55%;
+    margin-left: 30vw;
+    margin-top: 8vh;
+    overflow: hidden;
+}
+.video-img-shadow-content {
+    transform: scale(1);
+}
+.video-img-shadow-content:after {
+    content: " ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+}
+.video-img {
+    position: absolute;
+    left: 14vw;
+    top: 0;
+    width:55%;
+}
+.video-img-blur {
+    filter: blur(10px);
+}
+.video-information-box {
+    margin-left: 53vw;
+    position: absolute;
+    right: 14%;
+    top: 20%;
+}
+.to-BillBill {
+    background: #fff;
+    color: black;
+    padding: 6px 30px;
+    font-size: 16px;
+    position: absolute;
+    bottom: 10%;
+    left: 15%;
+    text-decoration: none;
+    margin: 0 auto;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+.to-BillBill:hover {
+    text-decoration: none;
+    text-shadow: 0 1px 1px lightgray;
+    color: black;
+}
+.work-card {
+    margin: 0 2vw;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+.work-card:hover {
+    border: 1px black solid;
+    transition: 1s;
+}
+#message-sentences-box {
+    color: #657487;
+    padding: 0 60px;
+    background: #fff;
+    border-radius: 13px;
+    box-shadow: 0 13px 15px rgba(31, 45, 61, 0.1);
+    margin: 60px 0;
+}
+#message-sentences {
+    margin: 50px auto;
+}
+.message-sentence {
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 16px;
+    line-height: 1.9;
+}
+#message-form {
+    background: #fff;
+    border-radius: 13px;
+    box-shadow: 0 13px 15px rgba(31, 45, 61, 0.1);
+}
+#comments {
+    padding: 15px 60px 40px;
+    overflow: auto;
+    height: auto;
+    max-height: 850px;
+}
+.comment-input {
+    width: 100%;
+    min-width: 200px;
+    background: #f0f2f7;
+    border: 1px solid #f0f2f7;
+    padding: 5px 9px;
+    border-radius: 6px;
+    transition: .25s;
+    margin: 8px auto;
+}
+#comments-num {
+    font-family: 'Noto Sans SC', sans-serif;
+    position: relative;
+    font-size: 20px;
+    color: #8492a6;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    -webkit-transition: .25s;
+    transition: .25s
+}
+#comments-num:after {
+    content: "";
+    position: absolute;
+    width: calc(100% + 120px);
+    height: 1px;
+    background: #eff2f7;
+    bottom: 0;
+    left: -60px;
+}
+#message-output {
+    min-width: 200px;
+    background: #f0f2f7;
+    border-radius: 6px;
+    margin: 25px auto 5px;
+    font-size: 16px;
+    font-family: 'Noto Sans SC', sans-serif;
+    font-weight: 500;
+}
+#message-output li {
+    margin: 5px 0;
+    padding: 10px 0 10px 5px;
+    word-wrap: break-word
+}
+#top_title_message {
+    /*margin-top: 25px;*/
+    /*margin-bottom: 30px;*/
+    font-weight: 400;
+    font-size: 32px;
+    text-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+#message-submit {
+    font-family: 'Noto Sans SC', sans-serif;
+    border: none;
+    background: linear-gradient(90deg, #20a0ff, #20b8ff);
+    color: #fff;
+    padding: 6px 15px;
+    border-radius: 6px;
+    box-shadow: 0 3px 5px rgba(32, 160, 255, 0.5)
+}
+
+/*去除框架自带的15px的padding*/
+.col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12,
+.container-fluid,
+.container {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
